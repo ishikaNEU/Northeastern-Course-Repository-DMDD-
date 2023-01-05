@@ -1,0 +1,61 @@
+Time_stamp,PROGRAM NAME,COURSE ID,COURSE NAME,PROFESSOR NAME,RATING
+11/28/2022 17:48,Data Analytics Engineering,DAMG 7350,Systems and Cybersecurity Fundamentals,Nick Beauchamp,4
+11/28/2022 17:49,Information Systems,INFO 6105,Data Science Engineering Methods and Tools,Nik Bear Brown,5
+11/28/2022 17:50,Software Engineering Systems,CSYE 6305,Concepts of Object-Oriented Design with C++,Prof. Hossein Noorian,3
+11/28/2022 17:52,Data Analytics Engineering,DAMG 7275,Advanced Database Management Systems,Sagar Kamarthi,4
+11/28/2022 17:53,Data Analytics Engineering,DAMG 7290,Data Warehousing and Business Intelligence,Muhammad Noor E Alam,3
+11/28/2022 17:54,Data Analytics Engineering,CSYE 6205,Concepts of Object-Oriented Design with C++,Nasser Fard,3
+11/28/2022 17:55,Data Analytics Engineering,CSYE 6700,Technical Writing and Professional Development,Jin Xuemin,4
+11/28/2022 17:57,Data Analytics Engineering,DAMG 6210,Data Management and Database Design,Radhakrishan Srinivasan,3
+11/28/2022 17:58,Data Analytics Engineering,DAMG 7978,Independent Study,Dehghani Mohammad,2
+11/28/2022 19:33,Software Engineering Systems,DAMG 6210,Data Management and Database Design,Nik brown ,4
+11/29/2022 21:33,Data Analytics Engineering,DAMG 6105,Data Science Engineering with Python,Dino Konstantopoulos,4
+11/29/2022 21:41,Information Systems,INFO 5002,Introduction to Python for Information Systems,Handan Liu,5
+11/29/2022 21:42,Data Analytics Engineering,DAMG 7370,Designing Advanced Data Architectures for Business Intelligence,Richard Sherman,5
+11/29/2022 21:43,Data Analytics Engineering,DAMG 6210,Data Management and Database Design,Wuping Wan,3
+11/29/2022 21:44,Data Analytics Engineering,DAMG 7275,Advanced Database Management Systems,Wuping Wan,4
+11/29/2022 21:45,Data Analytics Engineering,DAMG 6210,Data Management and Database Design,Naveen Kuragayala,3
+11/29/2022 21:46,Information Systems,INFO 5101,Lab for INFO 5100,Daniel Peters,3
+11/29/2022 21:47,Software Engineering Systems,CSYE 6200,Concepts of Object-Oriented,Daniel Peters,4
+12/1/2022 13:13,Software Engineering Systems,INFO 6150,Web Design and User Experience Engineering,Vishal chawla,4
+12/1/2022 13:13,Information Systems,INFO 5101,Lab for INFO 5100,Daniel Peters,3
+12/1/2022 13:14,Information Systems,INFO 5100,Application Engineering and Development,Khaled Bugrara,3
+12/1/2022 13:14,Information Systems,INFO 5100,Application Engineering and Development,Khaled Bugrara,5
+12/1/2022 13:17,Data Analytics Engineering,DAMG 7245,Big-Data Systems and Intelligence Analytics," Krishnamurthy, Srikanth",5
+12/1/2022 13:18,Data Analytics Engineering,DAMG 7245,Big-Data Systems and Intelligence Analytics," Krishnamurthy, Srikanth",2
+12/1/2022 13:18,Data Analytics Engineering,DAMG 7245,Big-Data Systems and Intelligence Analytics," Krishnamurthy, Srikanth",4
+12/1/2022 13:18,Information Systems,DAMG 7245,Big-Data Systems and Intelligence Analytics," Krishnamurthy, Srikanth",2
+12/1/2022 13:20,Information Systems,CSYE 7200,Big-Data System Engineering Using Scala,"Hillyard, Robin",4
+12/1/2022 13:20,Information Systems,CSYE 7200,Big-Data System Engineering Using Scala,"Hillyard, Robin",2
+12/13/2022 11:49,Information Systems,INFO 5100,Application Engineering and Development,Khaled Bugrara,2
+12/13/2022 11:51,Data Analytics Engineering,DAMG 7245,Big-Data Systems and Intelligence Analytics,Srikanth Krishnamurthy,3
+12/13/2022 11:52,Software Engineering Systems,CSYE 6200,Concepts of Object-Oriented,Daniel Peters,4
+12/13/2022 11:55,Information Systems,INFO 5100 ,Application Engineering and Development,Khaled Bugrara,3
+12/13/2022 11:57,Information Systems,DAMG 6210,Data Management and Database Design,Nick Brown,4
+12/13/2022 13:28,Data Analytics Engineering,DAMG 6105,Data Science Engineering with Python,Nick Brown,3
+12/13/2022 13:28,Data Analytics Engineering,DAMG 7350,Systems and Cybersecurity Fundamentals,Nick Beauchamp,4
+12/13/2022 13:29,Software Engineering Systems,DAMG 6210,Data Management and Database Design,Wuping Wan,5
+12/13/2022 13:29,Information Systems,DAMG 6210,Data Management and Database Design,Naveen Kuragayala,5
+12/13/2022 13:30,Data Analytics Engineering,DAMG 6105,Data Science Engineering with Python,Nick Brown,5
+12/13/2022 13:32,Information Systems,INFO 5001,Application Modeling and Design,Daniel Peters,2
+12/13/2022 13:32,Information Systems,INFO 5100,Application Engineering and Development,Khaled Bugrara,1
+12/13/2022 13:32,Information Systems,INFO 5100,Application Engineering and Development,Khaled Bugrara,1
+12/13/2022 13:35,Information Systems,CSYE 6205,Concepts of Object-Oriented Design with C++,Nasser Fard,4
+12/13/2022 13:37,Data Analytics Engineering,DAMG 7350,Systems and Cybersecurity Fundamentals,Nick Beauchamp,5
+12/13/2022 13:38,Software Engineering Systems,DAMG 7275,Advanced Database Management Systems,Sagar Kamarthi,4
+12/13/2022 13:38,Data Analytics Engineering,DAMG 7290,Data Warehousing and Business Intelligence,Muhammad Noor E Alam,3
+12/13/2022 13:40,Data Analytics Engineering,DAMG 7978,Independent Study,Dehghani Mohammad,2
+12/13/2022 13:40,Information Systems,INFO 5002,Introduction to Python for Information Systems,Handan Liu,5
+12/13/2022 13:41,Software Engineering Systems,DAMG 7370,Designing Advanced Data Architectures for Business Intelligence,Richard Sherman,2
+12/13/2022 13:41,Information Systems,DAMG 7370,Designing Advanced Data Architectures for Business Intelligence,Richard Sherman,4
+12/13/2022 13:42,Software Engineering Systems,DAMG 7275,Advanced Database Management Systems,Wuping Wan,3
+12/13/2022 13:42,Information Systems,INFO 5101,Lab for INFO 5100,Daniel Peters,3
+12/13/2022 13:43,Information Systems,DAMG 7245,Big-Data Systems and Intelligence Analytics,Srikanth Krishnamurthy,4
+12/13/2022 13:43,Data Analytics Engineering,CSYE 7200,Big-Data System Engineering Using Scala,Srikanth Krishnamurthy,1
+12/13/2022 13:44,Information Systems,CSYE 7200,Big-Data System Engineering Using Scala,Robin Hillyard,2
+12/13/2022 13:44,Software Engineering Systems,CSYE 7200,Big-Data System Engineering Using Scala,Robin Hillyard,5
+12/13/2022 13:45,Data Analytics Engineering,CSYE 6200,Concepts of Object-Oriented Design,Daniel Peters,4
+12/13/2022 13:45,Information Systems,CSYE 6200,Concepts of Object-Oriented Design,Daniel Peters,3
+12/13/2022 13:45,Software Engineering Systems,CSYE 6200,Concepts of Object-Oriented Design,Daniel Peters,4
+12/13/2022 13:45,Data Analytics Engineering,CSYE 6700,Technical Writing and Professional Development,Jin Xuemin,5
+12/13/2022 13:45,Information Systems,CSYE 6700,Technical Writing and Professional Development,Jin Xuemin,5

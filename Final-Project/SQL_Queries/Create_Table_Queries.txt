@@ -1,0 +1,221 @@
+##CREATE TABLE STATEMENTS
+
+
+1.Neu_Program:
+
+CREATE TABLE NEU_Program (
+program_name varchar(100),
+duration varchar(100),
+program_url varchar(255),
+PRIMARY KEY (program_name)
+);
+
+2. NEU_Course_Catalog:
+
+CREATE TABLE NEU_Course_Catalog (
+program_name varchar(50),
+course_id varchar(50),
+course_name varchar(100),
+course_description longtext,
+PRIMARY KEY (course_id)
+);
+
+3. NEU_Event Table:
+
+CREATE TABLE NEU_Event (
+event_id integer auto_increment,
+program_name varchar(50),
+event_name varchar(255),
+Primary Key (event_id)
+);
+
+##Auto Increment
+
+ALTER TABLE NEU_Event AUTO_INCREMENT=974;
+
+4.  Course_Core_Requirement Table:
+
+CREATE TABLE course_core_requirement (
+core_course_id integer auto_increment,
+program_name varchar(50),
+course_id varchar(50),
+course_name varchar(100),
+PRIMARY KEY (core_course_id)
+);
+
+##Auto Increment
+
+ALTER TABLE Course_Core_Requirement AUTO_INCREMENT=1400;
+
+
+5. NEU_Faculty Table:
+
+CREATE TABLE neu_faculty (
+faculty_name varchar(255),
+faculty_rating integer,
+PRIMARY KEY (faculty_name)
+);
+
+## Auto Increment
+
+ALTER TABLE Course_Core_Requirement AUTO_INCREMENT=1200;
+
+
+6. NEU_Course_Faculty Table:
+
+CREATE TABLE NEU_Course_Faculty (
+fac_course_id  integer auto_increment,
+faculty_name varchar(255),
+course_id integer,
+PRIMARY KEY (fac_course_id)
+);
+
+## Auto Increment 
+ALTER TABLE NEU_Course_Faculty AUTO_INCREMENT=4280;
+
+
+7. NEU_Course_Specialization Table: 
+
+CREATE TABLE NEU_Course_Specialization (
+spec_course_id  integer auto_increment,
+specialization_id integer,
+course_id integer,
+credit_hours integer,
+PRIMARY KEY (spec_course_id  )
+);
+
+## Auto Increment 
+
+ALTER TABLE NEU_Course_Specialization AUTO_INCREMENT=6700;
+
+
+8. NEU_Specialization Table:
+
+CREATE TABLE NEU _Specialization (
+specialization_id integer,
+specialization_name,
+PRIMARY KEY (specialization_id  )
+);
+
+
+9.  NEU_Resource_Materials table:
+
+CREATE TABLE NEU_Resource_Materials(
+software_name varchar(255),
+software_download_url longtext,
+professional_certification longtext,
+online_platform longtext,
+PRIMARY KEY (software_name)
+);
+
+
+10. NEU_Course_Resource table: 
+
+CREATE TABLE NEU_Course_Resource (
+course_resource_id integer auto_increment,
+course_id varchar(255),
+software_name varchar(255),
+course_rating integer,
+PRIMARY KEY (course_resource_id)
+);
+
+## Auto Increment
+ 
+ALTER TABLE NEU_Course_Resource AUTO_INCREMENT=5233;
+
+
+11. Job_Info table:
+
+CREATE TABLE Job_Info (
+Job_no integer auto_increment,
+title varchar(255),
+job_id varchar(255),
+company_name varchar(255),
+location varchar(255),
+date_posted date ,
+link longtext,
+description longtext,
+seniority_level varchar(255) ,
+employement_type varchar(255),
+job_function varchar(255),
+industry varchar(255),
+primary key (job_No)
+);
+
+## Auto Increment 
+
+ALTER TABLE Job_info AUTO_INCREMENT=601;
+
+
+12. Program_jobs Table:
+
+CREATE TABLE Program_jobs (
+program_job_no integer auto_increment,
+job_id varchar (255),
+program_name varchar(255),
+PRIMARY KEY (program_job_no)
+);
+
+## Auto Increment :
+
+ALTER TABLE Job_info AUTO_INCREMENT=10178;
+
+
+Foreign Constraints:
+
+ALTER TABLE NEU_Course_Catalogs
+ADD CONSTRAINT NEU_Course_Catalog_fk1 FOREIGN KEY (program_name)	
+REFERENCES NEU_Programs(program_name);
+
+ALTER TABLE Course_Core_Requirements
+ADD CONSTRAINT NEU_Course_Core_Requirement_fk1 FOREIGN KEY (program_name)
+REFERENCES NEU_Programs(program_name);
+
+ALTER TABLE Course_Core_Requirements
+ADD CONSTRAINT NEU_Course_Core_Requirement_fk1 FOREIGN KEY (program_name)
+REFERENCES NEU_Programs(program_name);
+
+ALTER TABLE NEU_Events
+ADD CONSTRAINT NEU_Event_fk1 FOREIGN KEY (program_name)
+REFERENCES NEU_Programs(program_name);
+
+
+ALTER TABLE NEU_Course_Facultys
+ADD CONSTRAINT NEU_Course_Facultys_fk1 FOREIGN KEY (course_id)
+REFERENCES NEU_Course_Catalogs(course_id);
+
+ALTER TABLE NEU_Course_Facultys
+ADD CONSTRAINT NEU_Course_Facultys_fk2 FOREIGN KEY (faculty_name)
+REFERENCES Neu_facultys(faculty_name);
+
+ALTER TABLE NEU_Course_Specializations
+ADD CONSTRAINT NEU_Course_Specializations_fk1 FOREIGN KEY (course_id)
+REFERENCES NEU_Course_Catalogs(course_id);
+
+ALTER TABLE NEU_Course_Specializations
+ADD CONSTRAINT NEU_Course_Specializations_fk2 FOREIGN KEY (specialization_id)
+REFERENCES NEU_Specializations(specialization_id);
+
+
+ALTER TABLE NEU_Course_resources
+ADD CONSTRAINT NEU_Course_resources_fk1 FOREIGN KEY (course_id)
+REFERENCES NEU_Course_Catalogs(course_id);
+
+
+ALTER TABLE NEU_Course_resources
+ADD CONSTRAINT NEU_Course_resources_fk2 FOREIGN KEY (software_name)
+REFERENCES NEU_Resource_material(software_name);
+
+
+ALTER TABLE Programs_jobs
+ADD CONSTRAINT Programs_jobs_fk1 FOREIGN KEY (program_name)
+REFERENCES NEU_Programs(program_name);
+
+
+ALTER TABLE Programs_jobs
+ADD CONSTRAINT Programs_jobs_fk1 FOREIGN KEY (job_id)
+REFERENCES Jobs_Info(job_id);
+
+
+
+

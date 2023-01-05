@@ -1,0 +1,51 @@
+
+## Insert Statements:
+
+NEU_Event Table:
+
+INSERT INTO neu_event (program_name,event_name) VALUES ("Information Systems","Ethics Institute Speaker, Michael Hannon ( Friday, November 18, 2022 12pm to 1:30pm )");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Information Systems","Ethics Institute Speaker, Don Fallis ( Friday, December 2, 2022 12pm to 1:30pm)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Information Systems","Using a Systems-based Culturally Responsive Evaluation (SysCRE) Framework (Wednesday, November 16, 2022 10am to 11:30am)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Information Systems","Designing an Engaging Academic Presentation (Friday, November 11, 2022)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Information Systems","Listener Research Study (Friday, November 11, 2022)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Data Analytics Engineering","Problem Play (Friday, November 11, 2022 8pm to 10pm)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Data Analytics Engineering","Graduate programs open house ");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Data Analytics Engineering","Women in STEM: An Evening with Distinguished Alumni (6th March 2023)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Data Analytics Engineering","Fall Graduate Programs Open House ");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Data Analytics Engineering","Northeastern University Mumbai Education Exhibition");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Software Engineering Systems","Graduate Studies Information Session");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Software Engineering Systems","Next Steps for Critical Infrastructure & Cyber Security: CISA Dir. Wales (Tue, Nov 15, 11:00 PM)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Software Engineering Systems","International Education Week Kick-Off Event (Mon, Nov 14, 2:00 PM)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Software Engineering Systems","Greatest MINDS Generations - A Gathering of Black Bostonians (All Ages)2023 (Thu, Jan 19, 9:00 AM)");
+INSERT INTO neu_event (program_name,event_name) VALUES ("Software Engineering Systems","Can AI Help Create a More Sustainable World? (Tue, Nov 15, 5:00 PM)");
+
+
+
+NEU_Specialization Table:
+
+INSERT INTO NEU_Specialization (specialization_id,specialization_name) VALUES (9100, "Big Data Systems and Analytics Concentration");
+INSERT INTO NEU_Specialization (specialization_id,specialization_name) VALUES (9101, "Intelligent Systems Concentration");
+INSERT INTO NEU_Specialization (specialization_id,specialization_name) VALUES (9102, "Smart Contracts Concentration");
+INSERT INTO NEU_Specialization (specialization_id,specialization_name) VALUES (9103, "User Experience Concentration");
+
+NEU_Course_specialization table:
+
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9100,"CSYE 6225",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES(9100,"DAMG 7245",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9100,"INFO 7250",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9100,"INFO 7390",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9101,"CSYE 7280",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9101,"INFO 7375",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9101,"INFO 7390",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9101,"INFO 7610",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9102,"INFO 7500",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9102,"INFO 7510",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9102,"INFO 7520",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9102,"INFO 7525",2);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9102,"INFO 7535",2);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9103,"CSYE 7280",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9103,"INFO 6150",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9103,"INFO 6245",4);
+INSERT INTO NEU_Course_Specialization (Specialization_id,course_id,credit_hours) VALUES (9103,"INFO 6350",4);
+
+

@@ -1,0 +1,160 @@
+Insert Statements
+
+Program_Detail Table:
+
+INSERT INTO Program_Detail ( program_name,duration,program_url) VALUES ("Masters of Science in Data Analytics Engineering","2 Years","https://www.northeastern.edu/graduate/program/master-of-science-in-information-systems-boston-5278/");
+INSERT INTO Program_Detail ( program_name,duration,program_url) VALUES ("Masters of Science in Information Systems","2 Years","https://www.northeastern.edu/graduate/program/master-of-science-in-software-engineering-systems-18774/");
+INSERT INTO Program_Detail ( program_name,duration,program_url) VALUES ("Masters of Science in Software Engineering Systems","2 Years","https://www.northeastern.edu/graduate/program/master-of-science-in-software-engineering-systems-18774/");
+
+Course_Detail Table: 
+
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Application Modeling and Design",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Introduction to Python for Information Systems",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Application Engineering and Development",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Lab for INFO 5100",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Data Science Engineering Methods and Tools",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Neural Modeling Methods and Tools",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Web Design and User Experience Engineering",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Program Structure and Algorithms",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Business Analysis and Information Engineering",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Planning and Managing Information Systems Development",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Web Development Tools and Methods",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Lab for INFO 6250",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Software Quality Control and Management",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Smartphones-Based Web Development",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Business Ethics and Intellectual Property for Engineers",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Elective",2);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," High-Performance Coding for Fintech",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Advanced Application Engineering Project",2);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Accounting and Budgetary Systems for Engineers",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Agile Software Development",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Engineering of Big-Data Systems",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Advanced Big-Data Applications and Indexing Techniques",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Business Process Engineering",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Organizational Change and IT",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Engineering Cybersecure Software Systems",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Information Systems for Healthcare-Services Delivery",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Special Topics in Information Systems",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Special Topics in Artificial Intelligence Engineering and Applications",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Managerial Communications for Engineers",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Advances in Data Sciences and Architecture",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Advances in Engineering Medical Information Systems",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Drug Development Processes and Information Systems Compliance",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Cryptocurrency and Smart Contract Engineering",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Smart Contract Application Engineering and Development",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Engineering of Advanced Cryptocurrency Systems",2);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Regulatory Aspects of Smart Contract Automation",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Digital Smart Contracts Product Innovations",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Special Topics in Natural Language Engineering Methods and Tools",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Elective",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Independent Study",2);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Thesis",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Information Systems"," Thesis Continuation",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Data Science Engineering with Python",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Data Management and Database Design",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Intelligent Data Modeling and Presentation for Engineers",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Big-Data Systems and Intelligence Analytics",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Big Data Architecture and Governance",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Advanced Database Management Systems",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Data Warehousing and Business Intelligence",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Introduction to Information Technology Auditing",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Systems and Cybersecurity Fundamentals",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Designing Advanced Data Architectures for Business Intelligence",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Special Topics in Data Architecture and Management",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Data Analytics Engineering"," Independent Study",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Concepts of Object-Oriented Design",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Concepts of Object-Oriented Design with C#",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Concepts of Object-Oriented Design with C++",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Enterprise Software Design",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Network Structures and Cloud Computing",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Operating Systems",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Introduction to Quantum Computing with Applications",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Technical Writing and Professional Development",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Elective",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," High-Performance Parallel Machine Learning and AI",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Advanced Cloud Computing",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Big-Data System Engineering Using Scala",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Foundations of Parallel, Concurrent, and Multithreaded Programming",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Deployment and Operation of Software Applications",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Engineering Reliable, Scalable, and Maintainable Distributed Systems",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Software Engineering",5);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Building Virtual Environments",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," User Experience Design and Testing",2);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Deep Learning and Reinforcement Learning in Game Engineering",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Special Topics in Computer Systems Engineering",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Advanced Game Analytics",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Distributed Intelligent Agents in the Metaverse",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Elective",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Independent Study",4);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Thesis",3);
+INSERT INTO course_detail ( program_name,course_name,specialization,rating) VALUES ("Master of Science In Computer Software Engineering"," Thesis Continuation",4);
+
+
+Course_Core_Requirement Table:
+
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Information Systems","INFO 5100","Application Engineering and Development");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Information Systems","INFO 5101","LAB for INFO 5100");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Software Engineering Systems","CSYE 6200"," Concepts of Object-Oriented Design");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Software Engineering Systems","INFO 6205"," Program Structure and Algorithms");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 5374"," Special Topics in Industrial Engineering");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 6600"," Computation and Visualization for Analytics");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 6700"," Data Management for Analytics");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," DAMG 6210"," Data Management and Database Design");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 7275"," Data Mining in Engineering");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 7280"," Statistical Methods in Engineering");
+INSERT INTO course_core_requirement (program_name,course_id,course_name) VALUES ("Masters of Science in Data Analytics Engineering"," IE 6205","Deterministic Operations Research");
+
+
+NEU_Events Table:
+
+INSERT INTO neu_events (program_name,events) VALUES ("Information Systems","Ethics Institute Speaker, Michael Hannon ( Friday, November 18, 2022 12pm to 1:30pm )");
+INSERT INTO neu_events (program_name,events) VALUES ("Information Systems","Ethics Institute Speaker, Don Fallis ( Friday, December 2, 2022 12pm to 1:30pm)");
+INSERT INTO neu_events (program_name,events) VALUES ("Information Systems","Using a Systems-based Culturally Responsive Evaluation (SysCRE) Framework (Wednesday, November 16, 2022 10am to 11:30am)");
+INSERT INTO neu_events (program_name,events) VALUES ("Information Systems","Designing an Engaging Academic Presentation (Friday, November 11, 2022)");
+INSERT INTO neu_events (program_name,events) VALUES ("Information Systems","Listener Research Study (Friday, November 11, 2022)");
+INSERT INTO neu_events (program_name,events) VALUES ("Data Analytics Engineering","Problem Play (Friday, November 11, 2022 8pm to 10pm)");
+INSERT INTO neu_events (program_name,events) VALUES ("Data Analytics Engineering","Graduate programs open house ");
+INSERT INTO neu_events (program_name,events) VALUES ("Data Analytics Engineering","Women in STEM: An Evening with Distinguished Alumni (6th March 2023)");
+INSERT INTO neu_events (program_name,events) VALUES ("Data Analytics Engineering","Fall Graduate Programs Open House ");
+INSERT INTO neu_events (program_name,events) VALUES ("Data Analytics Engineering","Northeastern University Mumbai Education Exhibition");
+INSERT INTO neu_events (program_name,events) VALUES ("Software Engineering Systems","Graduate Studies Information Session");
+INSERT INTO neu_events (program_name,events) VALUES ("Software Engineering Systems","Next Steps for Critical Infrastructure & Cyber Security: CISA Dir. Wales (Tue, Nov 15, 11:00 PM)");
+INSERT INTO neu_events (program_name,events) VALUES ("Software Engineering Systems","International Education Week Kick-Off Event (Mon, Nov 14, 2:00 PM)");
+INSERT INTO neu_events (program_name,events) VALUES ("Software Engineering Systems","Greatest MINDS Generations - A Gathering of Black Bostonians (All Ages)2023 (Thu, Jan 19, 9:00 AM)");
+INSERT INTO neu_events (program_name,events) VALUES ("Software Engineering Systems","Can AI Help Create a More Sustainable World? (Tue, Nov 15, 5:00 PM)");
+
+
+Resource_material Table:
+
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Information Systems","INFO 5002"," Introduction to Python for Information Systems","https://www.python.org/downloads/","PCEP: Certified Entry-Level Python Programmer","https://www.online-python.com/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Information Systems","INFO 5100"," Application Engineering and Development","https://netbeans.apache.org/download/index.html","Oracle CertifiedÂ Professional Java Programmer","https://www.online-java.com/online_java_compiler");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Information Systems","INFO 7250"," Engineering of Big-Data Systems","https://www.oracle.com/database/sqldeveloper/technologies/download/","Certified Analytics Professional (CAP) certifications","https://cassandra.apache.org/doc/latest/cassandra/tools/cassandra_stress.html");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Information Systems","INFO 7390"," Advances in Data Sciences and Architecture","https://bigml.com/tools","IBM Data Science Professional Certificate","https://cloud.google.com/data-science/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Data Analytics Engineering","DAMG 6210"," Data Management and Database Design","https://www.mysql.com/products/workbench/"," Oracle Database SQL Certified Associate Certification","https://sqliteonline.com/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Data Analytics Engineering","DAMG 7245"," Big-Data Systems and Intelligence Analytics","https://spark.apache.org/downloads.html","Data Analytics certificate","https://powerbi.microsoft.com/en-us/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Data Analytics Engineering","DAMG 7275"," Advanced Database Management Systems","https://www.oracle.com/database/sqldeveloper/technologies/download/","Data Analytics certificate","https://www.jdoodle.com/execute-sql-online/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Data Analytics Engineering","DAMG 7370"," Designing Advanced Data Architectures for Business Intelligence","https://www.tableau.com/resource/business-intelligence","Professional Certificate in Database Management System Architecture","https://www.programiz.com/java-programming/online-compiler/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Computer Software Engineering","CSYE 6225"," Network Structures and Cloud Computing","https://azure.microsoft.com/en-us/downloads/","AZ-900 Microsoft Azure Fundamentals","https://www.cloudzero.com/platform");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Computer Software Engineering","CSYE 6230"," Operating Systems","https://ubuntu.com/#download","Linux Fundamentals Certification Training","https://www.onworks.net/os-distributions/special-os");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Computer Software Engineering","CSYE 7215"," Foundations of Parallel, Concurrent, and Multithreaded Programming","https://www.eclipse.org/downloads/","Apache Spark Developer Certification â€” HDPCD","https://www.jdoodle.com/online-java-compiler/");
+INSERT INTO resource_material (Program_name,Course_ID,Software_download_url,Professional_certificate,online_platform) VALUES ("Master of Science In Computer Software Engineering","CSYE 7550"," Distributed Intelligent Agents in the Metaverse","https://apeople.automationanywhere.com/s/downloads?language=en_US","RPA Professional Certification","https://www.automationanywhere.com/");
+
+
+Jobs Table:
+
+INSERT INTO jobs (program_name,job_position) VALUES ("Information Systems","Information technology consultant.");
+INSERT INTO jobs (program_name,job_position) VALUES ("Information Systems","Systems analyst");
+INSERT INTO jobs (program_name,job_position) VALUES ("Information Systems","Database manager");
+INSERT INTO jobs (program_name,job_position) VALUES ("Information Systems","Project lead");
+INSERT INTO jobs (program_name,job_position) VALUES ("Information Systems","Systems Administrator");
+INSERT INTO jobs (program_name,job_position) VALUES ("Data Analytics Engineering","Data Analyst");
+INSERT INTO jobs (program_name,job_position) VALUES ("Data Analytics Engineering","Data Engineers.");
+INSERT INTO jobs (program_name,job_position) VALUES ("Data Analytics Engineering","Machine Learning Engineer.");
+INSERT INTO jobs (program_name,job_position) VALUES ("Data Analytics Engineering","Data Architect.");
+INSERT INTO jobs (program_name,job_position) VALUES ("Data Analytics Engineering","Business Analyst.");
+INSERT INTO jobs (program_name,job_position) VALUES ("Software Engineering Systems","Software Developer");
+INSERT INTO jobs (program_name,job_position) VALUES ("Software Engineering Systems","Web Developer");
+INSERT INTO jobs (program_name,job_position) VALUES ("Software Engineering Systems","Mobile App Developer");
+INSERT INTO jobs (program_name,job_position) VALUES ("Software Engineering Systems","IT Project Manager");
+INSERT INTO jobs (program_name,job_position) VALUES ("Software Engineering Systems","AI Engineer");
+

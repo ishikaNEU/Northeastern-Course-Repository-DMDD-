@@ -1,0 +1,175 @@
+Tweet_Details table:
+
+CREATE TABLE Tweet_Details (
+  tweet_id bigint ,
+  twitter_handle VARCHAR(255),
+  tweet_source_url VARCHAR(255),
+  name VARCHAR(255),
+  created_at DATETIME,
+  tweet VARCHAR(255),
+  PRIMARY KEY  (tweet_id)
+);
+
+-------------------------------------------------------------------
+
+User Table:
+
+CREATE TABLE User (
+  Twitter_handle VARCHAR(255),
+  name VARCHAR(255),
+  profile_image_url VARCHAR(255),
+  description VARCHAR(255),
+  followers_count INT,
+  following_count INT,
+  PRIMARY KEY  (Twitter_handle)
+);
+
+
+Constraint for User table:
+
+ALTER TABLE User
+ADD CONSTRAINT User _fk1 FOREIGN KEY (tweet_id)
+REFERENCES Tweet_Details(tweet_id);
+
+---------------------------------------------------------------------
+
+Tweet_Tag Table:
+
+CREATE TABLE Tweet_Tag (   
+  tweet_id bigint,
+  tags VARCHAR(255),
+);
+
+
+Constraint for Tweet_Tag table:
+
+ALTER TABLE Tweet_Tag
+ADD CONSTRAINT Tweet_Tag_fk1 FOREIGN KEY (tweet_id)
+REFERENCES Tweet_Details(tweet_id);
+
+----------------------------------------------------------------------
+
+Tweet_Mention Table:
+
+CREATE TABLE Tweet_Mention (
+  tweet_id BIGINT,
+  twitter_handler varchar(255),
+  source_user varchar(255),
+  target_user varchar(255)
+);
+
+Constraint for Tweet_Mention table:
+
+ALTER TABLE Tweet_Mention
+ADD CONSTRAINT Tweet_Mention_fk1 FOREIGN KEY (tweet_id)
+REFERENCES Tweet_Details(tweet_id);
+
+---------------------------------------------------------------------------
+
+Program_Detail Table:
+
+CREATE TABLE Program_Detail (
+program_name varchar(100),
+duration varchar(100),
+program_url varchar(255),
+PRIMARY KEY (program_name)
+);
+
+
+--------------------------------------------------------------------------
+
+Course_Detail Table:
+
+CREATE TABLE Course_Detail (
+course_id varchar(50),
+program_name varchar(100),
+course_name varchar(100),
+specialization varchar(100),
+PRIMARY KEY (course_id)
+);
+
+
+Constraint for Course_Detail table:
+
+ALTER TABLE Course_Detail
+ADD CONSTRAINT Course_Detail_fk1 FOREIGN KEY (program_name)
+REFERENCES Program_Detail(program_name);
+
+
+---------------------------------------------------------------------------
+
+Course_Core_Requirement Table:
+
+CREATE TABLE Course_Core_Requirement (
+program_name varchar(100),
+course_id varchar(100),
+course_name varchar(100)
+);
+
+
+Constraint for Course_Core_Requirement table:
+
+ALTER TABLE Course_Core_Requirement
+ADD CONSTRAINT Course_Core_Requirement_fk1 FOREIGN KEY (program_name)
+REFERENCES Program_Detail(program_name);
+
+ALTER TABLE Course_Core_Requirement
+ADD CONSTRAINT Course_Core_Requirement_fk2 FOREIGN KEY (course_id)
+REFERENCES Course_Detail(course_id);
+
+--------------------------------------------------------------------------------
+
+Jobs Table:
+
+CREATE TABLE Jobs (
+program_name varchar(100),
+job_position varchar(100)
+);
+
+
+Constraint for Jobs table:
+
+ALTER TABLE Jobs
+ADD CONSTRAINT Jobs_fk1 FOREIGN KEY (program_name)
+REFERENCES Program_Detail(program_name);
+
+-------------------------------------------------------------------------------
+
+NEU_Events Table:
+
+CREATE TABLE NEU_Events (
+program_name varchar(100),
+events varchar(255),
+);
+
+
+Constraint for NEU_Events table:
+
+ALTER TABLE NEU_Events
+ADD CONSTRAINT NEU_Events_fk1 FOREIGN KEY (program_name)
+REFERENCES Program_Detail(program_name);
+
+-------------------------------------------------------------------------------
+
+Resource_material Table:
+
+CREATE TABLE Resource_material (
+program_name varchar(50),
+course_id varchar(50),
+software_download_url varchar(255),
+professional_certificate varchar(255),
+online_platform varchar(255)
+);
+
+
+Constraint for Resource_material table:
+
+ALTER TABLE Resource_material
+ADD CONSTRAINT Resource_material_fk1 FOREIGN KEY (program_name)
+REFERENCES Program_Detail(program_name);
+
+ALTER TABLE Resource_material
+ADD CONSTRAINT Resource_material_fk2 FOREIGN KEY (course_id)
+REFERENCES Course_Detail(course_id);
+
+

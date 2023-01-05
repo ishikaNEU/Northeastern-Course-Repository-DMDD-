@@ -1,0 +1,184 @@
+1.What is the duration of COE's MS programs?     
+
+SQL Statement:
+
+SELECT program_name,duration 
+FROM neu_program
+WHERE program_name = 'Information Systems';
+
+
+2. What Master's programs are available at the College of Engineering?
+
+SQL Statement:
+
+SELECT * 
+FROM neu_program;
+
+3. What are the specializations that are available under COE's various master's programs?
+
+SQL Statement: 
+
+SELECT a.program_name, b.course_id, b.specialization 
+FROM NEU_Course_Catalog a RIGHT JOIN NEU_Specialization b 
+ON a.course_id = b.course_id
+WHERE program_name = 'Information Systems';
+
+
+4. Who are the COE faculty?
+
+SQL Statement:
+
+SELECT DISTINCT (faculty_name),course_id
+FROM neu_course_faculty;
+
+5. What reading material is available for a particular course online and offline?
+
+SQL Statement:
+
+SELECT course_id,online_platform 
+FROM resource_material1;
+
+6. What are the best-rated courses available in Northeastern University? 
+
+SQL Statement:
+
+SELECT a.program_name, b.course_id, b.course_rating 
+FROM resource_material1 b 
+LEFT JOIN  neu_course_catalog a
+ON a.course_id = b.course_id
+WHERE course_rating >= 4;
+
+7. Which resources are free?
+
+SQL Statement : 
+
+SELECT * 
+FROM Resource_material1 
+WHERE resource_type = 'Free';
+
+SQL Statement: 
+
+
+8. What are the paid resources?  Rephrase
+
+SQL Statement:
+
+SELECT course_id, software_download_url,resource_type 
+FROM resource_material1 
+WHERE resource_type = 'Paid';
+
+9. What courses are sponsored by NEU or offered at a discounted price? 
+
+Out of scope since we didnt get any information about it.
+
+10. Who are the best-rated faculties in Northeatsern University?
+
+SQL Statement:
+
+SELECT  faculty_name, faculty_rating 
+FROM neu_course_faculty 
+WHERE faculty_rating = 5;
+
+11. What are the professional certifications I can acquire for my program? (PMP, CAPM, Oracle Developer, Azure, AWS, SQL developer, etc.)
+
+SQL Statement:
+
+SELECT a.program_name,b.course_id,b.professional_certificate 
+FROM Resource_Material1 b
+LEFT JOIN NEU_Course_Catalog a 
+ON a.course_id = b.course_id
+ORDER BY program_name ;
+
+
+12. What is the url required to install software for a course?
+
+SQL Statement:
+
+SELECT course_id, software_download_url 
+FROM resource_material1;
+
+13. Which different tools/IDEs are available and compatible to use for the course?
+
+SQL Statement:
+
+SELECT course_id, online_platform 
+FROM resource_material1;
+
+
+14. What are the prerequisite courses for a particular program? 
+
+SQL Statement:
+
+SELECT * 
+FROM course_core_requirement 
+WHERE program_name = 'Software Engineering Systems';
+
+
+15. Which are the official websites to download them/documentation?
+
+SQL Statement: 
+
+SELECT course_id, software_download_url 
+FROM resource_material1;
+
+16. Which are the free practice platform to strengthen my learning? 
+
+SELECT course_id,online_platform
+FROM Resource_material1 
+WHERE resource_type = 'Free' AND course_id = 'DAMG 6105';
+
+
+17. Which are the online tools available for practical training or debugging?
+
+SQL Statement:
+
+SELECT course_id, online_platform 
+FROM resource_material1
+WHERE course_id = 'INFO 6106';
+
+
+18.What are other career paths available after degree completion?  
+
+SQL Statement: 
+
+SELECT program_name, title 
+FROM jobs_info 
+WHERE program_name = 'Data Analytics Engineering';
+
+19. What are the job profiles based on chosen specializations in a particular program?
+
+SQL Statement:
+
+SELECT a.program_name,b.specialization,c.title
+FROM neu_course_catalog a
+JOIN neu_specialization b 
+ON a.course_id = b.course_id
+JOIN jobs_info c
+ON a.program_name = c.program_name
+WHERE b.specialization like '%Big Data%' AND a.program_name like '%Data Analytics%';
+
+
+20.What are internships/co-op/full-time opportunities available during the course/post-completion of my program? 
+
+SQL Statement:
+
+SELECT * 
+FROM jobs_info 
+WHERE program_name = 'Information Systems';
+
+21. What are the events organized by NEU (career fair, talent connects, events, TED talks, etc) for students? 
+
+SQL Statement:
+
+SELECT * 
+FROM neu_event;
+
+22.Where can I apply for the roles/opportunities I am seeking? 
+
+SQL Statement
+
+SELECT * 
+FROM jobs_info;
+
+
+Note:  Other use cases added in Assignment_1 are no longer in scope of the current project.

@@ -1,0 +1,17 @@
+To run the Python script again, please execute the below delete statements
+
+
+## Delete Stataments:
+
+DELETE FROM job_info;
+DELETE FROM program_jobs;
+DELETE FROM neu_course_specialization;
+DELETE FROM neu_specialization;
+DELETE FROM neu_facultys;
+DELETE FROM neu_resource_materials;
+DELETE FROM neu_course_resource;
+DELETE FROM neu_course_faculty;
+DELETE FROM neu_course_catalog;
+DELETE FROM neu_event;
+DELETE FROM course_core_requirement;
+DELETE FROM neu_program;

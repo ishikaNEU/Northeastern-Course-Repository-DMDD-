@@ -1,0 +1,36 @@
+SQL Queries for Physical Model:
+
+1. Which user posted a tweet related to career fair event in NEU?
+
+SQL Statement: SELECT name,tweet_id,tweet from tweet_details WHERE tweet like '%Data Analytics Engineering %';
+
+Relational Algebra: π name, tweet_id, tweet
+                    σ tweet LIKE "%Data Analytics Engineering %" tweet_details
+
+2. When did the user post this tweet?
+
+SQL Statement: select name,tweet_id,tweet,created_at from tweet_details where tweet like '% Data Analytics Engineering%';
+
+Relational Algebra: π name, tweet_id, tweet, created_at
+                    σ tweet LIKE "%Data Analytics Engineering%" tweet_details
+
+3. What tweets have this user posted in the past 24 hours?
+
+SQL Statement: select name,tweet_id,tweet,created_at from tweet_details where name = 'Northeastern Repository' and  created_at > DATE_SUB(CURDATE(), INTERVAL 1 DAY);
+
+Relational Algebra: π name, tweet_id, created_at
+                    σname LIKE 'Northeastern Repository' AND created_at > DATE_SUB(CURDATE(), INTERVAL 1 DAY) tweet_details
+
+4. How many tweets have this user posted in the past 24 hours?
+
+SQL Statement: select name,created_at,count(tweet) from tweet_details where name = 'Northeastern Repository' and  created_at > DATE_SUB(CURDATE(), INTERVAL 1 DAY);
+
+Relational Algebra: π name, tweet_id, created_at, count(tweet)
+                    σname LIKE 'Northeastern Repository' AND created_at > DATE_SUB(CURDATE(), INTERVAL 1 DAY) tweet_details
+
+5. When did the user join Twitter?
+
+SQL Statement: select name,created_at from tweet_details where name = 'sagarika yannuwar' ;
+
+Relational Algebra: π name, created_at
+                    σ name = "sagarika yannuwar" tweet_details
